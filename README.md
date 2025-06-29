@@ -15,15 +15,10 @@ This project automates the reconstruction of a jigsaw puzzle from a single photo
 
 ## 🔨 Installation
 
-1. **Clone the repository**:
+**Clone the repository**:
 
    ```bash
    git clone https://github.com/nil443/jigsaw-solver.git
-   ```
-2. **Install dependencies**:
-
-   ```bash
-   pip install -r requirements.txt
    ```
 
 ---
@@ -58,7 +53,7 @@ python normalize_pieces.py -i pieces -o pieces_normalized
 # 3. Solve with greedy border matching:
 python solve_puzzle_borders.py -i pieces_normalized -o solution_greedy.png
 
-# 4. Orchestrate full pipeline end-to-end:
+# Orchestrate full pipeline end-to-end:
 python main.py
 ```
 
